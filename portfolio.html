@@ -8,8 +8,9 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/modern-normalize.css" />
+    <!-- <link rel="stylesheet" href="./css/modern-normalize.css" /> -->
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
     <header class="header">
@@ -21,21 +22,21 @@
           >
           <!--manu nav-->
           <div class="menu-nav">
-            <ul class="navigation-list list">
-              <li class="navigation-list-item">
-                <a class="navigation-list-link link" href="./index.html"
+            <ul class="navigation__list list">
+              <li class="navigation__list-item">
+                <a class="navigation__list-link link" href="./index.html"
                   >Студия</a
                 >
               </li>
-              <li class="navigation-list-item">
+              <li class="navigation__list-item">
                 <a
-                  class="navigation-list-link link active"
+                  class="navigation__list-link link active"
                   href="./portfolio.html"
                   >Портфолио</a
                 >
               </li>
-              <li class="navigation-list-item">
-                <a class="navigation-list-link link" href="./cont.html"
+              <li class="navigation__list-item">
+                <a class="navigation__list-link link" href="./cont.html"
                   >Контакты</a
                 >
               </li>
@@ -97,7 +98,7 @@
           <ul class="portfolio-list list">
             <li class="portfolio-item">
               <a class="portfolio-item-link link" href="">
-                <div class="port-t">
+                <div class="portfolio-text">
                   <div class="portfolio-description">
                     <p>
                       Технокряк это современная площадка распространения
@@ -123,7 +124,7 @@
             </li>
             <li class="portfolio-item">
               <a class="portfolio-item-link link" href="">
-                <div class="port-t">
+                <div class="portfolio-text">
                   <div class="portfolio-description">
                     <p>
                       Технокряк это современная площадка распространения
@@ -150,7 +151,7 @@
             </li>
             <li class="portfolio-item">
               <a class="portfolio-item-link link" href="">
-                <div class="port-t">
+                <div class="portfolio-text">
                   <div class="portfolio-description">
                     <p>
                       Технокряк это современная площадка распространения
@@ -176,7 +177,7 @@
             </li>
             <li class="portfolio-item">
               <a class="portfolio-item-link link" href="">
-                <div class="port-t">
+                <div class="portfolio-text">
                   <div class="portfolio-description">
                     <p>
                       Технокряк это современная площадка распространения
@@ -201,7 +202,7 @@
             </li>
             <li class="portfolio-item">
               <a class="portfolio-item-link link" href="">
-                <div class="port-t">
+                <div class="portfolio-text">
                   <!--СДЕЛАЛ ДЛЯ СЕБЯ РОТЕЙТ-->
                   <div class="portfolio-description">
                     <p>
@@ -227,7 +228,7 @@
             </li>
             <li class="portfolio-item">
               <a class="portfolio-item-link link" href="">
-                <div class="port-t">
+                <div class="portfolio-text">
                   <div class="portfolio-description">
                     <p>
                       Технокряк это современная площадка распространения
@@ -252,7 +253,7 @@
             </li>
             <li class="portfolio-item">
               <a class="portfolio-item-link link" href="">
-                <div class="port-t">
+                <div class="portfolio-text">
                   <div class="portfolio-description">
                     <p>
                       Технокряк это современная площадка распространения
@@ -277,7 +278,7 @@
             </li>
             <li class="portfolio-item">
               <a class="portfolio-item-link link" href="">
-                <div class="port-t">
+                <div class="portfolio-text">
                   <div class="portfolio-description">
                     <p>
                       Технокряк это современная площадка распространения
@@ -302,7 +303,7 @@
             </li>
             <li class="portfolio-item">
               <a class="portfolio-item-link link" href="">
-                <div class="port-t">
+                <div class="portfolio-text">
                   <div class="portfolio-description">
                     <p>
                       Технокряк это современная площадка распространения
@@ -329,33 +330,25 @@
         </div>
       </section>
     </main>
+   
     <footer class="footer">
       <div class="container">
-        <div class="logo-address-container">
+        <div class="footer-logo-container">
           <div class="footer-logo">
-            <a class="logo link" href="./index.html" aria-label="Логотип студии"
-              ><span class="logo-color" lang="en">Web</span
-              ><span style="color: white" lang="en">Studio</span></a
-            >
+            <a class="logo link" href="./index.html" aria-label="Логотип студии"><span class="logo-color"
+                lang="en">Web</span><span style="color: white" lang="en">Studio</span></a>
           </div>
           <address class="footer-address address">
             <ul class="footer-list list">
               <li class="footer-list-item">
-                <a
-                  class="footer-map-link link"
-                  href="https://goo.gl/maps/7gkrQekbCcnjJ7GV7"
-                  >г. Киев, пр-т Леси Украинки, 26</a
-                >
+                <a class="footer-map-link link" href="https://goo.gl/maps/7gkrQekbCcnjJ7GV7">г. Киев, пр-т Леси Украинки,
+                  26</a>
               </li>
               <li class="footer-list-item">
-                <a class="footer-mail-link link" href="mailto:info@example.com"
-                  >info@example.com</a
-                >
+                <a class="footer-mail-link link" href="mailto:info@example.com">info@example.com</a>
               </li>
               <li class="footer-list-item">
-                <a class="footer-tel-link link" href="tel:+380991111111"
-                  >+38 099 111 11 11</a
-                >
+                <a class="footer-tel-link link" href="tel:+380991111111">+38 099 111 11 11</a>
               </li>
             </ul>
           </address>
@@ -365,28 +358,28 @@
           <div class="social-links-team">
             <ul class="social-links-list list">
               <li class="social-links-item">
-                <a class="social-link-icon icon-footer" href="">
+                <a class="social-links-icon icon-footer" href="">
                   <svg class="social-icon" width="20px" height="20px">
                     <use href="./images/icons/sprite.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
               <li class="social-links-item">
-                <a class="social-link-icon icon-footer" href="">
+                <a class="social-links-icon icon-footer" href="">
                   <svg class="social-icon" width="20px" height="20px">
                     <use href="./images/icons/sprite.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
               <li class="social-links-item">
-                <a class="social-link-icon icon-footer" href="">
+                <a class="social-links-icon icon-footer" href="">
                   <svg class="social-icon" width="20px" height="20px">
                     <use href="./images/icons/sprite.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
               <li class="social-links-item">
-                <a class="social-link-icon icon-footer" href="">
+                <a class="social-links-icon icon-footer" href="">
                   <svg class="social-icon" width="20px" height="20px">
                     <use href="./images/icons/sprite.svg#icon-linkedin"></use>
                   </svg>
@@ -394,6 +387,25 @@
               </li>
             </ul>
           </div>
+        </div>
+        <div class="form-footer">
+          <form action="#" method="GET" class="">
+    
+            <h2 class="footer-form-title">Подпишитесь на рассылку</h2>
+            <div class="footer-input">
+              <label class="text-label" for="user-email-footer"></label>
+              <input type="email" class="footer-form__input" name="user-email-footer" id="user-email-footer"
+                placeholder="E-mail">
+              <button type="submit" class="modal-btn footer-button">Подписаться
+                <svg class="footer-icon" width="24" height="24">
+                  <use href="./images/icons/sprite-modal.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+    
+    
+          </form>
+    
         </div>
       </div>
     </footer>

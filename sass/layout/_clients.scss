@@ -1,0 +1,51 @@
+.clients .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-container > h2 {
+  margin-bottom: 50px;
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $color-text-title;
+}
+
+.clients-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+.clients-list {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.clients-item-link:hover {
+  border: 1px solid $accent-color;
+}
+.clients-item-link:focus {
+  border: 1px solid $accent-color;
+}
+.clients-icon {
+  fill: #afb1b8;
+}
+.clients-item-link:hover svg,
+.clients-item-link:focus svg {
+  fill: $accent-color;
+}
+.clients-item-link svg {
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
