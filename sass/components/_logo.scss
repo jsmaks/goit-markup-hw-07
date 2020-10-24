@@ -1,9 +1,3 @@
-.footer-logo {
-  /* display: flex; */
-  /* padding: 0;
-    margin: 0; */
-  margin-bottom: 20px;
-}
 .logo {
   font-family: $secondary-font;
   font-size: 26px;
@@ -13,8 +7,8 @@
   letter-spacing: 0.03em;
   color: #000000;
   margin-right: 93px;
-  /* margin-bottom: 20px; */
-}
-.logo-color {
-  color: #2196f3;
+
+  &-color {
+    color: #2196f3;
+  }
 }

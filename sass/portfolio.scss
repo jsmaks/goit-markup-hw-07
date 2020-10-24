@@ -8,8 +8,9 @@
 @import './base/common';
 @import './base/container';
 
-@import './base/portfolio-container';
-
 @import './components/portfolio-list';
 @import './components/portfolio-buttons';
 @import './components/portfolio-description';
+
+@import './layout/header';
+@import './layout/footer';
