@@ -854,13 +854,11 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-address-link svg:hover, .header-address-link svg:focus {
+.header-address-link:hover, .header-address-link:focus {
   color: #2196f3;
 }
 
-.header-address-link svg:hover svg,
-.header-address-link svg:hover svg, .header-address-link svg:focus svg,
-.header-address-link svg:focus svg {
+.header-address-link:hover svg, .header-address-link:focus svg {
   fill: #2196f3;
 }
 
